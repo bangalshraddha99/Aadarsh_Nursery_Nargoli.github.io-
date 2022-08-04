@@ -1,0 +1,52 @@
+
+
+.ourtem p
+{
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 15px;
+}
+.ourtem img
+{
+    padding-top:40px; 
+}
+.ourtem label
+{
+    font-size: 25px;
+    font-weight: bold;
+    color:rgb(14, 14, 87) ;
+}
+.ourtem #p1
+{
+    font-size: 15px;
+    text-align: left;
+    padding-left: 50px;
+    padding-bottom: 70px;
+    color:rgb(16, 17, 16) ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.ourtem
+{
+    background-color: rgba(175, 235, 184, 0.979);
+    padding-top: 90px;
+}
+
+.footer
+{
+    height: 50px;
+    background-color: rgb(77, 82, 82);
+    color:whitesmoke;
+}
+.footer h6
+{
+line-height: 50px;
+}
+.ont #p1{
+font-size: 30px;
+font-weight: bold;
+text-align: center;
+}
+.ont #p2{
+    font-size: 18px;
+    text-align: center;
+    }

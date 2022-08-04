@@ -1,0 +1,226 @@
+.bgimg
+{
+    background-image: url('bgimg.jpg');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    width: 100%;
+    height: 660px;
+}
+.headerset
+{
+    padding-top: 300px;
+    box-sizing: border-box;
+}
+.headerset h2
+{
+ font-size: 50px;
+}
+.headerset h4
+{
+    font-size: 40px;
+    font-weight: bold;
+}
+.btn 
+{
+    margin-top: 40px;
+}
+.headerset button
+{
+    border: 1px solid whitesmoke;
+}
+.ourservices
+{
+    padding: 100px 0px 60px;
+    height: 700px;
+}
+.ourservices h1
+{
+    font-size: 50px;
+    font-weight: bold;
+}
+.rowsetting
+{
+    margin: 80px 0px !important;
+
+}
+.imgsetting img
+{
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    border: 3px solid rgb(12, 109, 46);
+}
+.rowsetting h2
+{
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 30px;
+    color:rgb(14, 70, 14) ;
+}
+.rowsetting p
+{
+    padding: 10px;
+    color:rgb(80, 82, 80);
+}
+
+.portfolio
+{
+    height: 1100px;
+    width: 100%;
+    padding: 100px 0px 50px;
+}
+.portfolio h1
+{
+    font-size: 50px;
+    font-weight: bold;
+}
+.card
+{
+    margin-top: 40px;
+}
+.card img 
+{
+    height: 270px;
+    width: 350px;
+}
+.ourtem p
+{
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 15px;
+}
+.ourtem img
+{
+    padding-top:40px; 
+}
+.ourtem label
+{
+    font-size: 25px;
+    font-weight: bold;
+    color:rgb(14, 14, 87) ;
+}
+.ourtem #p1
+{
+    font-size: 15px;
+    text-align: left;
+    padding-left: 50px;
+    padding-bottom: 70px;
+    color:rgb(16, 17, 16) ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.ourtem
+{
+    background-color: rgba(180, 236, 180, 0.855);
+    padding-top: 50px;
+}
+.footer
+{
+    height: 50px;
+    background-color: rgb(77, 82, 82);
+    color:whitesmoke;
+}
+.footer h6
+{
+line-height: 50px;
+}
+.ont #p1{
+font-size: 30px;
+font-weight: bold;
+text-align: center;
+}
+.ont #p2{
+    font-size: 18px;
+    text-align: center;
+    }
+/*responsive*/
+
+@media(min-width:1000px){
+    
+}
+
+@media(min-width:700px) and (max-width:1000px)
+{
+    
+
+    
+}
+@media(min-width:500px) and (max-width:800px)
+{
+    .headerset h2
+    {
+     font-size: 35px;
+    }
+    .headerset h4
+    {
+        font-size: 25px;
+        font-weight: bold;
+    }
+    
+.ourservices
+{
+    height: 1500px;
+    padding-top: 30px;
+    background-color: rgb(186, 240, 180);
+}
+
+.imgsetting img
+{
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    border: 3px solid rgb(12, 109, 46);
+}
+
+.portfolio
+{
+    height: 2200px;
+}
+.card img 
+{
+    height: 270px;
+    width: 600px;
+}
+}
+
+
+@media(max-width:500px)
+{ 
+ 
+.headerset h2
+{
+ font-size: 30px;
+}
+.headerset h4
+{
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.ourservices
+{
+    height: 1300px;
+    padding-top: 30px;
+    background-color: rgb(186, 240, 180);
+}
+.portfolio
+{
+    height: 2200px;
+}
+.card img 
+{
+    height: 270px;
+    width: 380px;
+}
+
+.ourtem #p1
+{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    text-align: left;
+    padding-left: 50px;
+    padding-bottom: 70px;
+    color:rgb(16, 17, 16) ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+}
